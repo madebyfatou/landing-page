@@ -171,8 +171,7 @@ button{
     padding: 0%;
 }
 
-
-#contenue2 {
+{
   height: 100VH;
       display: flex;
     flex-direction: column;
