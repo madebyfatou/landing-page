@@ -3,13 +3,37 @@ body{
     color : #2E2A26;
     font-style: normal;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    margin: 0;
     
+}
+
+@font-face{
+    font-family:"Manrope-VariableFont_wght";
+    src: url(Manrope-VariableFont_wght.ttf);
+}
+
+h1, H2, h3{font-family:Garamond ;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+h3,h5, small{
+  font-family: "Manrope-VariableFont_wght", sans-serif;
+}
+
+h5{font-weight: 800;
+  font-size: 1rem;
+
 }
 
 
 
+
+
 nav{
+  height: 20vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;  
@@ -64,13 +88,19 @@ justify-content: center;}
 }
 
 
+
 header{
-    
+  height: 80vh;
     display: flex;
     align-items: center;
-    gap: 20%;
+    gap: 15%;
     padding: 0% 0% 0% 2%;
-    
+    background-color: #ecf3f0;
+    margin: 0;
+}
+
+#rivière{
+  width: 40%;
 }
 button{
   width: 200px;
@@ -105,7 +135,7 @@ button{
   height: 50px;
   padding: 8px;
   
-  background-color: #ffffff;
+  background-color: #ecf3f0;
   color: #000000;
   font-size: 1rem;
   border:2px solid;
@@ -120,8 +150,8 @@ button{
 }
 
 #hero-header{
-    height: 70vh;
-    width: 47%;
+    height: 80vh;
+    width: 50%;
     align-items: center;
     justify-content: center;
     background-image: url(https://dessin-architecture.fr/wp-content/uploads/2024/01/dessin_perspective_architecture_interieur_luxe_aga_werner_atelier3113.jpg);
@@ -171,7 +201,60 @@ button{
     padding: 0%;
 }
 
-{
+#contenue2{
+  width: 100%;
+  height: 100VH;
+  background-color: #ecf3f0;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  gap: 10Px;
+  
+}
+
+#contenue2 img{
+
+  width:100% ; 
+  height : 150% ;
+  object-fit: cover;
+
+}
+
+#contenue2 div{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  gap: 5%;
+}
+
+#contenue2 article{
+  text-align: center;
+  width: 10%;
+  background-color: #fff;
+  padding: 0px;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-bottom: 5%;
+}
+
+#contenue2 h2{
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  
+   
+}
+#contenue2 button{
+  margin-left:auto ;
+  margin-right:auto ;
+}
+
+#container2{
   height: 100VH;
       display: flex;
     flex-direction: column;
@@ -180,3 +263,194 @@ button{
     flex-wrap: wrap;
 }
 
+
+#container2 img{
+  width: 70% ; 
+  height:20% ;
+  padding: 0% 0% 0% 15%;
+}
+
+#contenue3{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0PX;
+}
+
+#salon{
+  width: 50%;
+      margin-left: 10%;
+}
+
+#salon img{
+  width: 80%;
+
+}
+#container2 h2{
+  font-size: 50px;
+      margin-bottom: 8%;
+}
+
+
+#ligne2{
+  height: 80VH;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: #ecf3f0;
+}
+
+
+#ligne2 img{
+  width: 80% ; 
+  height:20% ;
+  padding: 0% 0% 0% 2%;
+}
+
+main h3{
+ font-family:Garamond ;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+
+
+#image-text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0PX;
+}
+
+#salon{
+  width: 40%;
+      margin-left: 10%;
+}
+
+
+#ligne2 h2{
+  font-size: 50px;
+      margin-bottom: 8%;
+}
+
+#container4{
+  height: 80VH;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container4 img{
+  width: 70% ; 
+  height:20% ;
+  padding: 0% 0% 0% 15%;
+}
+
+#témoignage{
+  width: 100%;
+  height: 100VH;
+  background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+  gap: 15Px;
+}
+
+#témoignage h2{
+  text-align: center;
+  width: 100%;
+    margin-top: 0%;
+  font-size: 45px;
+  
+   
+}
+
+#témoignage article{
+  height: 35%;
+  width: 40%;
+  background-color: #ecf3f0;
+  border-radius: 5%;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 30%;
+  
+}
+
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.image-témoignage{
+  padding: 0% 0% 0% 5%;
+    display: flex;
+    align-items: center;
+    gap: 15PX;
+    
+}
+
+.image-témoignage p{
+  margin: 0%;
+  display: flex;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.espace{
+ padding: 0% 0% 0% 5% ;
+}
+
+input[type=text] {
+  width: 200%;
+  padding: 12px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+#ensemble{
+  height: 100VH;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 0% 0% 0%;
+  gap: 0PX;
+  background-color: #ecf3f0;
+}
+
+.logo-réseaux{
+  width: 5%;
+}
+
+#section-text{
+  width: 45%;
+}
+
+#section-taille{
+ 
+padding:0%;
+    margin: 0%;
+    
+}
+
+#espace-réseau{
+  display: flex;
+  gap: 5%;
+}
